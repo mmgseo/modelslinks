@@ -59,11 +59,18 @@
 
 		function populateRankings (json) {
 
+			console.log(json);
+
 			// Clears out existing table data
 
 			while (rankingsBody.firstChild) {
 				rankingsBody.removeChild(rankingsBody.firstChild);
 			}
+
+			// Populate table
+
+
+
 		}
 
 		document.addEventListener("DOMContentLoaded", () => { loadRankings(); });
