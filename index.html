@@ -27,7 +27,7 @@
 		request.onload = () => {
 
 			try {
-				const json = JSON.parse(request.responseText);
+				const json = Json.parse(request.responseText);
 
 				populateRankings(json);
 			} catch (e) {
