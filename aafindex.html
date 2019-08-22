@@ -59,8 +59,6 @@
 
 		function populateRankings (json) {
 
-			console.log(json);
-
 			// Clears out existing table data
 
 			while (rankingsBody.firstChild) {
@@ -69,6 +67,10 @@
 
 			// Populate table
 
+			json.forEach((row) => {
+
+				console.log(row);
+			});
 
 
 		}
